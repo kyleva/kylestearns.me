@@ -1,3 +1,14 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+html,
+body,
+[data-reactroot] {
+  height: 100%;
+  width: 100%;
+}
+
 html,
 body {
   padding: 0;
